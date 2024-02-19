@@ -74,7 +74,7 @@ while(not keuze == "9" ):
         print ("Uitvoeren terugbetaling")
         terugTeGeven = float(input( "Bedrag originele bon: "))
         reden = input("Reden retour: ")
-        dagTotaalTerug = terugTeGeven
+        dagTotaalTerug = dagTotaalTerug + terugTeGeven
     elif(keuze == "3"):
         print ("======= DAG TOTALEN ========")
         print ("In kassa begin:   " + str(bedragInKassaBegin))
